@@ -38,7 +38,7 @@ void recvHandler(int clientSocket) {
 
 int main() {
     const char* HOST = "127.0.0.1";
-    const int PORT = 65457;  // UDP echo server 포트
+    const int PORT = 65456;  // UDP echo server 포트
     const int BUFFER_SIZE = 1024;
 
     std::cout << "> udp-echo-client is activated" << std::endl;

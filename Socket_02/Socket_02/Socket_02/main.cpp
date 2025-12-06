@@ -62,19 +62,3 @@ int main() {
 
     return 0;
 }
-myozung@hyojeong-2 풀서네 % cd socket
-myozung@hyojeong-2 socket % ls -a
-.        .DS_Store    Socket_01
-..        .git        Socket_02
-myozung@hyojeong-2 socket % cd Socket_02
-myozung@hyojeong-2 Socket_02 % ls -a
-.        ..        .DS_Store    Socket_02
-myozung@hyojeong-2 Socket_02 % cd Socket_02
-myozung@hyojeong-2 Socket_02 % ls -a
-.            .DS_Store        Socket_02.xcodeproj
-..            Socket_02
-myozung@hyojeong-2 Socket_02 % cd Socket_02
-myozung@hyojeong-2 Socket_02 % ls -a
-.        ..        main.cpp
-myozung@hyojeong-2 Socket_02 % git add main.cpp
-fatal: 내용이 없는 하위 모듈 'Socket_02'에서
